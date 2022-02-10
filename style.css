@@ -1,0 +1,168 @@
+body{
+    font-family: 'Lato', sans-serif;
+} 
+
+ .container{
+     width: 1000px;
+     margin: auto;
+     border: 6px solid black;
+ }
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 45%;
+    margin: auto;
+    border: 1px double black ;
+    border-radius: 5%;
+    
+}
+
+.box .box1{
+    width: 30%;
+    margin: auto;
+    
+}
+
+.box1 img{
+    width: 100%;
+    margin: auto;
+    background-color: teal;
+    padding: 5%;
+}
+
+.font{
+    text-align: center;
+}
+
+.colour{
+    color: rgb(12, 24, 92);
+}
+
+.row_2{
+    display:flex;
+    flex-wrap: wrap; 
+    width: 1000px;
+    margin: auto;
+    border: 3px solid black; 
+    background-color: rgb(245, 201, 245); 
+}
+
+.box_2{
+    width: 28%;
+    margin: auto;
+    border: 1px double rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+}
+
+.text{
+    display: flex;
+}
+
+.row_3{
+    width: 1000px;
+    margin: auto;
+    border: 3px solid black;  
+    background-color: rgb(35, 4, 65);
+}
+
+.box_3{
+    display:flex;
+    flex-wrap: wrap; 
+    width: 90%;
+    margin: auto;
+    border: 4px solid rgb(164, 177, 41);
+    border-radius: 5%;
+}
+
+.text1{
+    color: goldenrod;
+}
+
+.box_3_1{
+    width: 40%;
+    margin: auto;
+   
+}
+
+.box_3_1 img{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(80, 74, 74);
+    padding: 2% 4%;
+}
+
+.box_3_2{
+    width: 25%;
+    margin: auto;
+    border: 1px solid rgb(65, 63, 63);
+    border-radius: 0% 30% 0% 0%;
+}
+
+.text_colour{
+    color: blue;
+    display: inline-block;
+}
+
+.sa{
+    color: aliceblue;
+}
+
+.tv{
+    padding: auto;
+    background-color: rgb(145, 228, 228);
+    display: inline-block;
+    padding: 5%;
+    color: cornflowerblue;
+}
+.row_4{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box_4{
+    width: 40%;
+    margin: auto;
+    border: 2px solid rgb(255, 255, 255);
+}
+.box_4_1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box_4_1_1{
+    width: 40%;
+    margin: auto;
+    
+}
+
+.box_4_1_2{
+    width: 30%;
+    margin: auto;
+}
+
+.box_4_1_3{
+    width: 40%;
+    margin: auto;
+    border: 3px dashed rgb(253, 253, 253);
+}
+
+.box_4_1_4{
+    width: 40%;
+    margin: auto;
+    border: 3px dashed rgb(255, 255, 255);
+}
+
+.box_4_1_1_1 img{
+    width: 70%;
+    margin: auto;
+    background-color: black;
+    padding: 5%;
+}
+
